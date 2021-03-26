@@ -59,26 +59,6 @@ nav ul li
   font-weight: bolder;
 }
 
-.social
-{
-  position: absolute;
-  margin-top: 20px;
-  display: flex;
-  bottom: 60px;
-}
-
-.social i
-{
-  padding-right: 30px;
-  font-size: 25px;
-  color: #9a9b9c;
-}
-
-.social i :hover
-{
-  color: #ffffff;
-}
-
 .subtopic
 {
   margin:10px 10px 30px 10px !important;
@@ -113,4 +93,35 @@ h1, h2, h3, h4, p
 {
   height: 300px;
   width: 300px;
+}
+
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
 }
