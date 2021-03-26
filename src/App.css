@@ -96,8 +96,9 @@ h1, h2, h3, h4, p
 }
 
 .social-container {
-  background: #eee;
   padding: 25px 50px;
+  bottom: 0%;
+  position: fixed;
 }
 
 a.social {
@@ -110,18 +111,10 @@ a.social:hover {
   transform: translateY(-2px);
 }
 
-a.youtube {
-  color: #eb3223;
+a.linkedin {
+  color: #0e76a8;
 }
 
-a.facebook {
-  color: #4968ad;
-}
-
-a.twitter {
-  color: #49a1eb;
-}
-
-a.instagram {
+a.github {
   color: black;
 }
