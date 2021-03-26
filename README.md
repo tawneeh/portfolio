@@ -15,7 +15,7 @@ Software Requirements
 * A code editor; I prefer VSCode
 
 Open by Downloading or Cloning
-* Navigate to <>
+* Navigate to <https://github.com/tawneeh/portfolio.git>
 * Download this repository to your computer by clicking the green Code button and 'Download Zip'
 * Or clone the repository
 
@@ -36,11 +36,8 @@ Please feel free to reach out to me anytime at <tawneeh@icloud.com>
 
 * React
 * JavaScript
-* JSX
-* Webpack
-* Babel
-* Eslint
-* Styled-components library
+* HTML
+* CSS
 * Created using `create-react-app`
 
 ### License
