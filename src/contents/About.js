@@ -5,9 +5,9 @@ class About extends Component {
     return (
       <div className="condiv">
         <h1 className="subtopic">About Me</h1>
-          <h4>Hello,</h4>
+          <h4>Hello!</h4>
           <h1>I'm Tawnee Harris</h1>
-          <h3>Junior Web <u>Developer</u> | UI/UX <u>Designer</u></h3>
+          <h3><u>Junior Software Developer</u></h3>
           <br />
           <p>My journey to the tech industry has had a few twists and turns. I never thought that I would be a developer but I have successfully completed the Epicodus twenty week C#/React bootcamp!</p>
           <br />
@@ -17,4 +17,4 @@ class About extends Component {
   }
 }
 
-export default About; // really spruce this up and add cool shit
+export default About;
