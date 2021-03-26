@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navitem from './Navitem';
+import Social from './Social';
 
 class Sidebar extends Component {
   constructor(props)
@@ -22,17 +23,20 @@ class Sidebar extends Component {
 
   render() {
     return (
-      <nav>
-      <ul>
-        <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
-        <Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
-        <Navitem item="Education" tolink="/education"  activec={this.activeitem}></Navitem>
-        <Navitem item="Skills" tolink="/skills"  activec={this.activeitem}></Navitem>
-        <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
-      </ul>
-      </nav>
+      <>
+        <nav>
+          <ul>
+            <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
+            <Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
+            <Navitem item="Education" tolink="/education"  activec={this.activeitem}></Navitem>
+            <Navitem item="Skills" tolink="/skills"  activec={this.activeitem}></Navitem>
+            <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
+          </ul>
+          <Social />
+        </nav>
+      </>
       )
     }
   }
-  
+
   export default Sidebar;
