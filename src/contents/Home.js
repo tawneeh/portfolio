@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Social from '../components/Social';
 import ReactTypingEffect from 'react-typing-effect';
 import profilepic from '../img/me1.jpg';
 
@@ -10,11 +9,11 @@ class Home extends Component {
         <img src={profilepic} className="profilepic" alt="Tawnee Harris"></img>
         <br />
         <br />
-        <ReactTypingEffect className="typingeffect" text={['Hi! I am Tawnee','I develop software']} speed={100} eraseDelay={700} />
-        <Social />
+        <h3>👩💻</h3>
+        <ReactTypingEffect className="typingeffect" text={['Hi! My name is Tawnee','I develop software']} speed={100} eraseDelay={700} />
       </div>
     )
   }
 }
 
-export default Home; // want a much better splash page
+export default Home;
