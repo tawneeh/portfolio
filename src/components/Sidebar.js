@@ -32,7 +32,7 @@ class Sidebar extends Component {
             <Navitem item="Skills" tolink="/skills"  activec={this.activeitem}></Navitem>
             <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
           </ul>
-          <Social />
+            <Social />
         </nav>
       </>
       )
