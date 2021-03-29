@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import Navitem from './Navitem';
-import Social from './Social';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faLinkedin
+} from "@fortawesome/free-brands-svg-icons";
 
 class Sidebar extends Component {
   constructor(props)
@@ -23,7 +27,6 @@ class Sidebar extends Component {
 
   render() {
     return (
-      <>
         <nav>
           <ul>
             <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
@@ -32,9 +35,15 @@ class Sidebar extends Component {
             <Navitem item="Skills" tolink="/skills"  activec={this.activeitem}></Navitem>
             <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
           </ul>
-            <Social />
+            <a href="https://www.linkedin.com/in/tawneeh/"
+              className="linkedin social">
+              <FontAwesomeIcon icon={faLinkedin} size="2x" />
+            </a>
+            <a href="https://github.com/tawneeh/"
+              className="github social">
+              <FontAwesomeIcon icon={faGithub} size="2x" />
+            </a>
         </nav>
-      </>
       )
     }
   }
