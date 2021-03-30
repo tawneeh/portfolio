@@ -3,7 +3,7 @@ import Home from './../contents/Home';
 import About from './../contents/About';
 import Education from './../contents/Education';
 import Skills from './../contents/Skills';
-import Contact from './../contents/Contact';
+import Social from './Social';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './../App.css';
 
@@ -13,6 +13,7 @@ function App() {
       <Router>
         <div className="App">
           <Sidebar />
+          <Social />
             <Route exact path="/">
               <Home />
             </Route>
@@ -24,9 +25,6 @@ function App() {
             </Route>
             <Route path="/skills">
               <Skills />
-            </Route>
-            <Route path="/contact">
-              <Contact />
             </Route>
         </div>
       </Router>
