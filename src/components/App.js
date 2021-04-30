@@ -4,7 +4,6 @@ import About from './../contents/About';
 import Education from './../contents/Education';
 import Skills from './../contents/Skills';
 import Resume from './../contents/Resume';
-import Link from './Link';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './../App.css';
 
@@ -14,7 +13,6 @@ function App() {
       <Router>
         <div className="App">
           <Sidebar />
-          <Link />
             <Route exact path="/">
               <Home />
             </Route>
