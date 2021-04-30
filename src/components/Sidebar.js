@@ -26,10 +26,10 @@ class Sidebar extends Component {
         <nav>
           <ul>
             <img src={bulb} className="lightbulb" alt="lightbulb"></img>
-            <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
-            <Navitem item="About Me" tolink="/about"  activec={this.activeitem}></Navitem>
-            <Navitem item="Education" tolink="/education"  activec={this.activeitem}></Navitem>
-            <Navitem item="Skills" tolink="/skills"  activec={this.activeitem}></Navitem>
+            <Navitem item="HOME" tolink="/" activec={this.activeitem}></Navitem>
+            <Navitem item="ABOUT ME" tolink="/about" activec={this.activeitem}></Navitem>
+            <Navitem item="EDUCATION" tolink="/education" activec={this.activeitem}></Navitem>
+            <Navitem item="SKILLS" tolink="/skills" activec={this.activeitem}></Navitem>
           </ul>
         </nav>
       )
