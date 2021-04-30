@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navitem from './Navitem';
+import bulb from '../img/lightbulb.png';
 
 class Sidebar extends Component {
   constructor(props)
@@ -24,6 +25,7 @@ class Sidebar extends Component {
     return (
         <nav>
           <ul>
+            <img src={bulb} alt="lightbulb"></img>
             <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
             <Navitem item="About Me" tolink="/about"  activec={this.activeitem}></Navitem>
             <Navitem item="Education" tolink="/education"  activec={this.activeitem}></Navitem>
