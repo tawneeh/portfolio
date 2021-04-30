@@ -95,6 +95,12 @@ h1, h2, h3, h4, p
   width: 300px;
 }
 
+.lightbulb
+{
+  height: 200px;
+  width: 200px;
+}
+
 .link-container {
   position: absolute;
   bottom: 0;

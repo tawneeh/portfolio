@@ -25,7 +25,7 @@ class Sidebar extends Component {
     return (
         <nav>
           <ul>
-            <img src={bulb} alt="lightbulb"></img>
+            <img src={bulb} className="lightbulb" alt="lightbulb"></img>
             <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
             <Navitem item="About Me" tolink="/about"  activec={this.activeitem}></Navitem>
             <Navitem item="Education" tolink="/education"  activec={this.activeitem}></Navitem>
