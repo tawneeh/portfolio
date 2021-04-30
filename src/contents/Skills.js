@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useTrail, animated as a } from "react-spring";
 import "./spring.css";
 
-const skills = ["HTML", "CSS", "JS", "REACT JS", "FIREBASE"];
+const skills = ["HTML", "CSS", "JS", "C#", "REACT JS"];
 const config = { mass: 5, tension: 2000, friction: 200 };
 
 function Skills() {
