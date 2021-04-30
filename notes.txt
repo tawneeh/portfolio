@@ -1,3 +1,5 @@
+* Style site similarly to resume!
+
 Hex:
 
 #6dd0db
