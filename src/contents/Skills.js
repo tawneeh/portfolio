@@ -24,7 +24,7 @@ function Skills() {
             className="trails-text"
             style={{
               ...rest,
-              transform: x.interpolate(x => `translate3d(0,${x}px,0)`)
+              transform: x.to(x => `translate3d(0,${x}px,0)`)
             }}
           >
             <a.div style={{ height }}>{skills[index]}</a.div>
