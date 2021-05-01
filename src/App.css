@@ -71,6 +71,12 @@ h1, h2, h3, h4, p
   margin: 10px;
 }
 
+a
+{
+  text-decoration: none;
+  color: red;
+}
+
 .card
 {
   border:0px solid #9a9b9c;
