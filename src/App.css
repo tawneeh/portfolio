@@ -110,6 +110,7 @@ a
 {
   width: 100%;
   overflow: hidden;
+  cursor: none;
 }
 
 .image-colorize img 
