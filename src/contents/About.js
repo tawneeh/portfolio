@@ -6,11 +6,14 @@ class About extends Component {
       <div className="condiv">
           <h4>Hello!</h4>
           <h1>I'm Tawnee Harris</h1>
-          <h3><u>Junior Software Developer</u></h3>
+          <h3 style={{ color: '#6dd0db' }}>Junior Software Developer || Certificate in Web and Mobile Development</h3>
           <br />
-          <p>My journey to the tech industry has had a few twists and turns. I never thought that I would be a developer but I have successfully completed the Epicodus twenty week C#/React bootcamp!</p>
+          <p>I custom built this site using React.js to showcase my coding abilities. Enjoy perusing my site to your heart's content! If you would like to see more of my work, please check out my GitHub.</p>
+          <p>Head over to LinkedIn and connect with me!</p>
+          <a href="https://github.com/tawneeh">GitHub</a>
           <br />
-          <p><em>Certificate in Web and Mobile Development</em></p>
+          <a href="https://www.linkedin.com/in/tawneeh/">LinkedIn</a>
+          <br />
       </div>
     )
   }
