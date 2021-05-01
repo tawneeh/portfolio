@@ -7,10 +7,11 @@ class About extends Component {
           <h1>About Tawnee</h1>
           <h3 style={{ color: '#6dd0db' }}>Junior Software Developer || Certificate in Web and Mobile Development</h3>
           <br />
-          <p>Tawnee Harris is a Junior Developer living in the Seattle area. SHe is a recent Epicodus graduate interested in data engineering and is extremely eager to continue learning!</p>
+          <p>Tawnee Harris is a Junior Developer living in the Seattle area. She is a recent Epicodus graduate interested primarily in data engineering and is extremely eager to continue learning!</p>
           <br />
           <p>Tawnee custom built this website using React.js to showcase her coding abilities. Enjoy perusing the site to your heart's content! If you would like to see more of Tawnee's work, please check out her GitHub. </p>
           <a href="https://github.com/tawneeh">GitHub</a>
+          <br />
           <br />
           <p>Head over to LinkedIn and connect with me!</p>
           <a href="https://www.linkedin.com/in/tawneeh/">LinkedIn</a>
