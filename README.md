@@ -34,9 +34,10 @@ Please feel free to reach out to me anytime at <tawneeh@icloud.com>
 
 ## 💾 Technologies Used
 
-* React
+* React.js
 * React Spring
 * React Typing Effect
+* styled-components
 * JavaScript
 * HTML
 * CSS
