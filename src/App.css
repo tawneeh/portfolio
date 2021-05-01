@@ -120,3 +120,9 @@ a
   height: 200px;
   width: 200px;
 }
+
+::selection
+{
+  background-color: #3d3d3d;
+  color: #6dd0db;
+}
