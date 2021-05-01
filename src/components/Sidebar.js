@@ -28,8 +28,8 @@ class Sidebar extends Component {
             <img src={bulb} className="lightbulb" alt="lightbulb"></img>
             <Navitem item="HOME" tolink="/" activec={this.activeitem}></Navitem>
             <Navitem item="ABOUT" tolink="/about" activec={this.activeitem}></Navitem>
-            <Navitem item="EDUCATION" tolink="/education" activec={this.activeitem}></Navitem>
             <Navitem item="SKILLS" tolink="/skills" activec={this.activeitem}></Navitem>
+            <Navitem item="RESUME" tolink="/resume" activec={this.activeitem}></Navitem>
           </ul>
         </nav>
       )
