@@ -10,10 +10,10 @@ class About extends Component {
           <p>Tawnee Harris is a Junior Developer living in the Seattle area. SHe is a recent Epicodus graduate interested in data engineering and is extremely eager to continue learning!</p>
           <br />
           <p>Tawnee custom built this website using React.js to showcase her coding abilities. Enjoy perusing the site to your heart's content! If you would like to see more of Tawnee's work, please check out her GitHub. </p>
-          <a href="https://github.com/tawneeh">GitHub</a>
+          <a href="https://github.com/tawneeh"><em>GitHub</em></a>
           <br />
-          <p>Head over to LinkedIn and connect with me!</p>
-          <a href="https://www.linkedin.com/in/tawneeh/">LinkedIn</a>
+          <p>Head over to LinkedIn and connect with Tawnee!</p>
+          <a href="https://www.linkedin.com/in/tawneeh/"><em>LinkedIn</em></a>
       </div>
     )
   }
