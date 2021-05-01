@@ -106,14 +106,25 @@ a
   /* maybe add more styling here */
 }
 
-.profilepic
+.image 
 {
-  height: 300px;
-  width: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-colorize img 
+{
+  transition: transform .5s, filter 0.5s ease-in-out;
+  filter: sepia(100%);
+}
+
+.image-colorize:hover img 
+{
+  filter: sepia(0);
+  transform: scale(1.1);
 }
 
 .resumeImg
-
 {
   height: 500px;
   width: 500px;
