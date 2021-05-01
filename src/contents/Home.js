@@ -6,7 +6,7 @@ class Home extends Component {
   render() {
     return (
       <div className="condiv home">
-        <h1 id="myName">TAWNEE HARRIS</h1>
+        <h1 id="myName"><span className="dropCap">T</span>AWNEE <span className="dropCap">H</span>ARRIS</h1>
         <img src={ profilepic } className="profilepic" alt="Tawnee Harris"></img>
         <br />
         <br />
