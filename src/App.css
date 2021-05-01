@@ -96,8 +96,14 @@ a
 {
   color: #6dd0db;
   font-family: Impact;
-  font-size: 75px;
+  font-size: xx-large;
   margin-bottom: 20px;
+}
+
+.dropCap
+{
+  font-size: xxx-large;
+  /* maybe add more styling here */
 }
 
 .profilepic
